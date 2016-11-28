@@ -1,21 +1,38 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+
+// Typography Styles
 h1, h2, h3 {
   font-family: 'Maitree', serif;
 }
 
+
+// Background Gradient
 .home-callout, .navbar {
-  // uiGradients 'what lies beyond' by  @_ighosh
-  background: #F0F2F0; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #F0F2F0 , #000C40); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #F0F2F0 , #000C40); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  // uiGradients 'Solid Vault' by  @_ighosh
+  background: #3a7bd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a7bd5 , #3a6073); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a7bd5 , #3a6073); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+
+// Nav Styles
 .navbar {
   border: none;
 }
 
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: #EEE;
+  &:hover {
+    color: #EEE;
+    opacity: 0.75;
+  }
+}
+
+
+// Homepage Styles
 .home-callout {
   color:#EEE;
   margin-top: -20px;
