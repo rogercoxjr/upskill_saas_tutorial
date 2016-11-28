@@ -4,7 +4,8 @@
 h1, h2, h3 {
   font-family: 'Maitree', serif;
 }
-body, .navbar {
+
+.home-callout, .navbar {
   // uiGradients 'what lies beyond' by  @_ighosh
   background: #F0F2F0; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #F0F2F0 , #000C40); /* Chrome 10-25, Safari 5.1-6 */
@@ -13,4 +14,11 @@ body, .navbar {
 
 .navbar {
   border: none;
+}
+
+.home-callout {
+  color:#EEE;
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
